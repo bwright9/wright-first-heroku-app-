@@ -37,6 +37,7 @@ gem 'will_paginate', '~> 3.1.0'
 
 group :production do
 	gem 'puma'
+	gem 'rails_12factor'
 end
 
 group :development, :test do
