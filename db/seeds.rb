@@ -7,7 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 50.times do |index|
-	Animal.create(name: "animal #{index}", 
-		age: rand(100),
-		gender: ['Male', 'Female'].sample
-end 
+    Animal.create(name: "aninal #{index}", 
+        age: rand(100), gender: ['Male', 'Female'].sample)
+end
